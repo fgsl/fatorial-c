@@ -1,5 +1,5 @@
-#define <assert.h>
-#define <stdio.h>
+#include <assert.h>
+#include <stdio.h>
 #include "function_fatorial.c"
 
 int main()
