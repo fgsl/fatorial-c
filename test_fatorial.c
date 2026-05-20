@@ -1,3 +1,7 @@
+#define <assert.h>
+#define <stdio.h>
+#include "function_fatorial.c"
+
 int main()
 {
     assert(fatorial(0)==1);
