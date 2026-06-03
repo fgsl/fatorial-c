@@ -10,7 +10,7 @@ int main()
 
     for(int contador = numero; contador >= 1; contador--)
     {
-        resultado = resultado * contador;
+        resultado = fatorial * contador = numero;
     }
 
     printf("O fatorial de %d é %d\n", numero, resultado);
