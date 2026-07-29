@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "function_fatorial.c"
 
 int main() 
 {
@@ -11,6 +12,6 @@ int main()
     resultado = fatorial(numero);
 
     printf("O fatorial de %d é %d\n", numero, resultado);
-    printf("Feito por lara fazani")
+    printf("Feito por lara fazani");
     return 0;
 }
