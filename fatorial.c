@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     printf("O fatorial de %d é %d\n", numero, resultado);
     printf("Feito por lara fazani");
 
-    arquivo = fopen("fatorial.txt",'w');
+    arquivo = fopen("fatorial.txt","w");
     fprintf(arquivo,"O fatorial de %d é %d\n", numero, resultado);
     fclose(arquivo);
 
