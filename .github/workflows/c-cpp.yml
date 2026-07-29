@@ -20,4 +20,4 @@ jobs:
     - name: compile programa principal
       run: gcc fatorial.c -o fatorial
     - name: execute programa principal
-      run: ./fatorial
+      run: ./fatorial 4
