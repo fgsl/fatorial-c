@@ -3,15 +3,12 @@
 int main() 
 {
     int numero;
-    int resultado = 1;
+    int resultado;
 
     printf("\nDigite um número: ");
     scanf("%d", &numero);
 
-    for(int contador = numero; contador >= 1; contador--)
-    {
-        resultado = fatorial * contador = numero;
-    }
+    resultado = fatorial(numero);
 
     printf("O fatorial de %d é %d\n", numero, resultado);
     printf("Feito por lara fazani")
