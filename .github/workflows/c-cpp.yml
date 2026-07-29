@@ -21,3 +21,5 @@ jobs:
       run: gcc fatorial.c -o fatorial
     - name: execute programa principal
       run: ./fatorial 4
+    - name: mostrar o conteúdo do arquivo criado 
+      run: cat fatorial.txt
