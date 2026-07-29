@@ -1,13 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "function_fatorial.c"
 
-int main() 
+int main(int argc, char *argv[]) 
 {
     int numero;
     int resultado;
 
-    printf("\nDigite um número: ");
-    scanf("%d", &numero);
+
+    if (argc == 2){
+        numero = atoi(argv[1]);
+    } else {
+        printf("\nDigite um número: ");
+        scanf("%d", &numero);
+    }
+
 
     resultado = fatorial(numero);
 
